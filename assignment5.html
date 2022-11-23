@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hit the UFO!</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src="alienbanner.jpeg" alt="Girl in a jacket" width="640" height="100">
+<table>
+    <tr>
+        <td style="width:330px;">
+            <div id = "score"></div>
+            <div id = "title"><b>Smash the Alien!</b></div>
+        </td>
+        <td style="width:200px;">
+            <button id = "Resetscore"  onclick = "resetScore()">Reset Score</button>
+        </td>
+        <td>
+            <button id = "Resetspeed" onclick = "resetSpeed()">Reset Speed</button>
+        </td>
+    </tr>
+</table>
+<div id = "theCanvas"></div>
+<script src="alien.js"></script>
+</body>
+</html>
